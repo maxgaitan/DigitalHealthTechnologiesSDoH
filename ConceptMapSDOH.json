@@ -1,0 +1,326 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "1",
+  "url": "https://github.com/maxgaitan/DigitalHealthTechnologiesSDoH",
+  "version": "20230410",
+  "name": "HumanFirst domains to LOINC mapping of SDOH concepts",
+  "status": "draft",
+  "experimental": true,
+  "date": "2023-04-10",
+  "publisher": "HumanFirst",
+  "contact": [
+    {
+      "name": "HumanFirst Applied Sciences team",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.gohumanfirst.com/contact"
+        }
+      ]
+    }
+  ],
+  "description": "Rule-based mappings between HumanFirst-defined social determinants of health (SDOH) domains to relevant LOINC codes",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "840",
+          "display": "United States of America"
+        }
+      ]
+    }
+  ],
+  "purpose": "Supporting material for publication 'Does Clinical Research Account for Diversity in Deploying Digital Health Technologies' to show LOINC codes that could be utilized in clinical trials to document the 11 proposed SDOH domains",
+  "copyright": "CC BY 4.0",
+  "sourceCanonical": "link to publication DOI",
+  "targetCanonical": "https://www.hl7.org/fhir/loinc.html",
+  "group": [
+    {
+      "source": "link to publication DOI",
+      "sourceVersion": "1",
+      "target": "https://www.hl7.org/fhir/loinc.html",
+      "targetVersion": "2.74",
+      "element": [
+        {
+          "code": "Race",
+          "target": [
+            {
+              "code": "69854-8",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific information about race and ethnicity is required for a valid LOINC mapping."
+            },
+            {
+              "code": "32624-9",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific information about race and ethnicity is required for a valid LOINC mapping."
+            },
+            {
+              "code": "46463-6",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific information about race and ethnicity is required for a valid LOINC mapping."
+            },
+            {
+              "code": "56091-2",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific information about race and ethnicity is required for a valid LOINC mapping."
+            },
+            {
+              "code": "54134-2",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific information about race and ethnicity is required for a valid LOINC mapping."
+            },
+            {
+              "code": "59362-4",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific information about race and ethnicity is required for a valid LOINC mapping."
+            },
+            {
+              "code": "67288-1",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific information about race and ethnicity is required for a valid LOINC mapping."
+            },
+            {
+              "code": "69855-5",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific information about race and ethnicity is required for a valid LOINC mapping."
+            },
+            {
+              "code": "74693-3",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific information about race and ethnicity is required for a valid LOINC mapping."
+            },
+            {
+              "code": "80977-2",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific information about race and ethnicity is required for a valid LOINC mapping."
+            },
+            {
+              "code": "63038-4",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific information about race and ethnicity is required for a valid LOINC mapping."
+            }
+          ]
+        },
+        {
+          "code": "Insurance Status",
+          "target": [
+            {
+              "code": "76437-3",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific context about insurance status is required for a valid LOINC mapping."
+            },
+            {
+              "code": "52556-8",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific context about insurance status is required for a valid LOINC mapping."
+            },
+            {
+              "code": "63066-5",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific context about insurance status is required for a valid LOINC mapping."
+            },
+            {
+              "code": "74186-8",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific context about insurance status is required for a valid LOINC mapping."
+            }
+          ]
+        },
+        {
+          "code": "Education",
+          "target": [
+            {
+              "code": "82589-3",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific context about education is required for a valid LOINC mapping."
+            },
+            {
+              "code": "80913-7",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific context about education is required for a valid LOINC mapping."
+            },
+            {
+              "code": "82590-1",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific context about education is required for a valid LOINC mapping."
+            },
+            {
+              "code": "63504-5",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific context about education is required for a valid LOINC mapping."
+            }
+          ]
+        },
+        {
+          "code": "Income",
+          "target": [
+            {
+              "code": "76513-1",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific context about income is required for a valid LOINC mapping."
+            },
+            {
+              "code": "62942-8",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific context about income is required for a valid LOINC mapping."
+            },
+            {
+              "code": "83335-0",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific context about income is required for a valid LOINC mapping."
+            },
+            {
+              "code": "77244-2",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific context about income is required for a valid LOINC mapping."
+            },
+            {
+              "code": "63058-2",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific context about income is required for a valid LOINC mapping."
+            }
+          ]
+        },
+        {
+          "code": "Employment Status",
+          "target": [
+            {
+              "code": "68505-7",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific context about employment status is required for a valid LOINC mapping."
+            },
+            {
+              "code": "85152-7",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific context about employment status is required for a valid LOINC mapping."
+            },
+            {
+              "code": "67875-5",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific context about employment status is required for a valid LOINC mapping."
+            },
+            {
+              "code": "62522-8",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific context about employment status is required for a valid LOINC mapping."
+            }
+          ]
+        },
+        {
+          "code": "Housing Status",
+          "target": [
+            {
+              "code": "71802-3",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific context about housing status is required for a valid LOINC mapping."
+            },
+            {
+              "code": "74283-3",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific context about housing status is required for a valid LOINC mapping."
+            },
+            {
+              "code": "83322-8",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific context about housing status is required for a valid LOINC mapping."
+            },
+            {
+              "code": "67040-6",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific context about housing status is required for a valid LOINC mapping."
+            },
+            {
+              "code": "62540-0",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific context about housing status is required for a valid LOINC mapping."
+            },
+            {
+              "code": "62514-5",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific context about housing status is required for a valid LOINC mapping."
+            },
+            {
+              "code": "86639-2",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific context about housing status is required for a valid LOINC mapping."
+            }
+          ]
+        },
+        {
+          "code": "Disability Status",
+          "target": [
+            {
+              "code": "95377-8",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific context about disability status is required for a valid LOINC mapping."
+            }
+          ]
+        },
+        {
+          "code": "Environmental Safety",
+          "target": [
+            {
+              "code": "83322-8",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific context about environmental safety is required for a valid LOINC mapping."
+            },
+            {
+              "code": "62944-4",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific context about environmental safety is required for a valid LOINC mapping."
+            },
+            {
+              "code": "62945-1",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific context about environmental safety is required for a valid LOINC mapping."
+            },
+            {
+              "code": "63028-5",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific context about environmental safety is required for a valid LOINC mapping."
+            },
+            {
+              "code": "62929-5",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific context about environmental safety is required for a valid LOINC mapping."
+            },
+            {
+              "code": "66362-5",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific context about environmental safety is required for a valid LOINC mapping."
+            }
+          ]
+        },
+        {
+          "code": "Sex",
+          "target": [
+            {
+              "code": "46098-0",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Gender",
+          "target": [
+            {
+              "code": "76691-5",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "Internet Access",
+          "target": [
+            {
+              "code": "99802-1",
+              "equivalence": "narrower",
+              "comment": "The target mapping to LOINC is narrower because more specific context about internet access is required for a valid LOINC mapping."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
